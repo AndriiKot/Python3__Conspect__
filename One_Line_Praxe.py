@@ -6,10 +6,10 @@ if Example_1:
 	squares = []
 	for i in range(10):
 		squares.append(i ** 2)
-	print(squares)
+	print(squares)                     # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 
 if Example_1:
-	print([i**2 for i in range(10)])
+	print([i**2 for i in range(10)])   # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 
 
 Example_2 = 2
@@ -68,6 +68,39 @@ if Example_6:
 	str3 = '''Yes'''
 	str4 = """Yes"""
 	print(str1, str2, str3, str4) # Yes Yes Yes Yes
+
+
+Example_7 = 7
+
+if Example_7:
+	print('str(5) == \'5\'', str(5) == '5')  # True
+	string = '         This is lazyz\t\n    '
+	print(string.strip())    # 'This is lazy'
+	print("DrDre".lower())   # 'drdre'
+	print('attention'.upper()) # 'ATTENTION'
+	print('smartphone'.startswith('smart'))  # True
+	print('smartphone'.endswith('phone'))    # True
+	print('another'.find('other'))           # 2
+	print('cheat'.replace('ch', 'm'))        # meat
+	print(len('Rumpelstiltsjub'))            # 15
+	print('ear' in 'earth')                  # True
+
+
+Example_8 = 8
+
+if Example_8:
+	def f(): x = 2
+	print(f() == 2)    # False
+	print(f() == None) # True
+	print(f() is None) # True
+	print('' == None)  # False
+	print(0 == None)   # False
+
+
+	
+
+
+
 
 
 
