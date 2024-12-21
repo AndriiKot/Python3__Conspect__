@@ -97,6 +97,102 @@ if Example_8:
 	print(0 == None)   # False
 
 
+Example_9 = 9
+
+if Example_9:
+	l = [11, 22, 22]
+	print(len(l))   # 3
+
+
+Example_10 = 10
+
+if Example_10:
+	y = x = 3
+	print(x is y) # True
+	print([3] is [3]) # False
+
+
+Example_11 = 11
+
+if Example_11:
+	l = [11, 22, 33]
+	l.append(44)
+	print(l)          # [11, 22, 33, 44]
+
+
+Example_12 = 12
+
+if Example_12:
+	l = [11, 22, 44]
+	l.insert(2, 33)
+	print(l)          # [11, 22, 33, 44]
+
+
+Example_13 = 13
+
+if Example_13:
+	l = [11, 22, 33]
+	l + [44]
+	print(l)       # !!! [11, 22, 33]
+	l += [44]
+	print(l)	   # !!! [11, 22, 33, 44]
+
+
+Example_14 = 14
+
+if Example_14:
+	l = [11, 22, 22, 33]
+	l.remove(22)   # !!!
+	print(l)	   # !!! [11, 22, 33]
+
+
+Example_15 = 15
+
+if Example_15:
+	l = [11, 22, 33, 44]
+	l.reverse()
+	print(l)	   # !!! [44, 33, 22, 11]
+
+
+Example_16 = 16
+
+if Example_16:
+	l = [44, 11, 33, 22]
+	l.sort()
+	print(l)       # !!! [11, 22, 33, 44]
+
+
+Example_17 = 17
+
+if Example_17:
+	l = [22, 22, 22, 33, 44]
+	print(l.index(22))    # 0
+	print(l.index(22, 2))  # 2
+	print(l.index(22, 1))  # 1
+	# print(l.index(22, 3))  ValueError: 22 is not in list
+
+
+Example_18 = 18
+
+if Example_18:
+	stack = [3]
+	stack.append(42)
+	print(stack)        # [3, 44]
+	print(stack.pop())  # !!! 42
+	print(stack)        # [3]
+	print(stack.pop())  # !!! 3
+	print(stack)        # []
+	# print([].pop()) IndexError: pop from empty list
+
+
+
+
+
+
+
+
+
+
 	
 
 
