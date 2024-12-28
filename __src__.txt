@@ -1,0 +1,10 @@
+
+TUTORIAL by docs/python.org
+https://docs.python.org/3/tutorial/
+
+Code Style:
+https://peps.python.org/pep-0008/
+
+PyPI:
+https://pypi.org/
+
