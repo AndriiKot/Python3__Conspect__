@@ -28,4 +28,8 @@ from math import *
 print(sin(9))
 
 
+print('asdfsaf' + 'safdsaf')
+
+string
+
 
