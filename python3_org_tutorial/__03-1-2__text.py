@@ -59,9 +59,3 @@ print(string1[5:])			# string
 
 len('Long String')          # 11
 
-
-
-
-
-
-
